@@ -1,0 +1,32 @@
+name: password_generator2
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_launcher_icons: ^0.9.1 # Adicionei a dependência corretamente
+  flutter_native_splash: ^1.2.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo-1.png  # Ajuste o caminho para refletir a estrutura de pastas
+flutter_icons:
+  android: false
+  ios: true
+  image_path: "assets/logo-1.png"  # Ajuste o caminho para refletir a estrutura de pastas
+  remove_alpha_ios: true
+flutter_native_splash:
+  color: "#FDE79A"
+  image: "assets/splash.png"
+  android: false
+  ios: true
+
+ 
